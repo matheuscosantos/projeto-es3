@@ -7,31 +7,13 @@
                 <!--Modelo 3d Drill-->
                 <a-asset-item id="Drill" src="https://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Models/Drill/scene.gltf"></a-asset-item> 
               
-                <!--Modelo 3d Tripé-->
-                <a-asset-item id="Tripod" src="https://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Models/Tripod/Tripod.gltf"></a-asset-item> 
-              
-                <!--Modelo 3d StopDrill
-                <a-asset-item id="StopDrill" src="hhttps://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Models/StopDrill/StopDrill.gltf"></a-asset-item> 
-                -->
             </a-assets> 
           
             <!--Marker da furadeira-->
             <a-marker id="markerDrill" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Markers/Drill/Drill_Pattern.patt">
                 <a-entity id="drillModel" gltf-model="#Drill" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
             </a-marker>
-            
-            <!--Modelo 3d Chapa metalica-->
-            <a-asset-item id="Metal" src="https://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Models/MetalPlate/scene.gltf"></a-asset-item>
-            <a-entity id="MetalPlate" gltf-model="#Metal" scale="0.5 0.5 0.2" rotation="0 0 0" position="-0.02 0 0.01"></a-entity>
-
-          
-            <!--Marker do tripé-->
-            <a-marker id="markerTripod" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Markers/Tripod/Tripod_Pattern.patt">
-                <a-entity id="tripodModel" gltf-model="#Tripod" scale="4 4 4" rotation="-6 -1 0" position="0 -1 -0.5"></a-entity> 
-            </a-marker>
-          
-               
-     
+                     
              <a-marker id="markerLetterU" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/imagens-app/master/pattern-U.patt">
                 <a-entity id="letterUModel" gltf-model="#Drill" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
              </a-marker>

@@ -42,11 +42,13 @@ ok.setAttribute("visible", false);
 var pagina = document.getElementById("corpo"); //layout da pagina inteira
 
 //Modelo da furadeira
-var modelDrill = document.getElementById("drillModel");
+//var modelDrill = document.getElementById("drillModel");
 //Modelo do tripé
 var modelTripod = document.getElementById("tripodModel");
 //Modelo da chapa metálica
 var metalPlate = document.getElementById("MetalPlate");
+
+var letterUModel = document.getElementById("letterUModel")
 
 //Mostrar ou ocultar chapa metálica:
 function hideMetalPlate() {
@@ -55,6 +57,14 @@ function hideMetalPlate() {
 function showMetalPlate() {
   metalPlate.setAttribute("visible", true);
 }
+
+function showLetterUModel(){
+  letterUModel.setAttribute("visible", true);
+}
+
+letterUModel.addEventListener("markerFound", function(){
+  alert("Teste")
+})
 
 //Mostrar ou ocultar erro:
 function hideError() {
@@ -80,27 +90,26 @@ function showCorrect() {
 //RECONHECIMENTO DO MARKER NA CAMERA:
 //Load Drill
 var markerLetterU = document.getElementById("markerLetterU");
-markerLetterU.addEventListener("markerFound", function() {
-  if (final != true) {
-    alert("Teste");
+// markerLetterU.addEventListener("markerFound", function() {
+//   if (final != true) {
+//     alert("Teste");
 
-    tripod = true;
+//     tripod = true;
 
-    setTimeout(function() {
-      modelDrill.setAttribute("visible", true);
-    }, 0);
-    modelDrill.setAttribute(
-      "animation",
-      "property: position; to: 0 0 0; dur: 0"
-    );
-    drill = true;
-  }
-});
+//     setTimeout(function() {
+//       modelDrill.setAttribute("visible", true);
+//     }, 0);
+//     modelDrill.setAttribute(
+//       "animation",
+//       "property: position; to: 0 0 0; dur: 0"
+//     );
+//     drill = true;
+//   }
+// });
 //Lost Drill
 // var markerLetterU = document.getElementById("markerLetterU");
 // markerLetterU.addEventListener("markerLost", function() {
 //   if (final != true) {
-//     alert("Teste");
 //     drill = false;
 //     setTimeout(hideError, 4000); //esconder erro apos 1 segundo
 //     setTimeout(showMetalPlate, 4000); //mostrar placa metálica apos 1 segundo
@@ -110,28 +119,27 @@ markerLetterU.addEventListener("markerFound", function() {
 // //Load Tripod
 // var markerTripod = document.getElementById("markerTripod");
 
-markerLetterU.addEventListener("markerFound", function() {
-  setTimeout(function() {
-    modelDrill.setAttribute("visible", false);
-  }, 0);
-  setTimeout(function() {
-    modelTripod.setAttribute("visible", false);
-  }, 0);
-  modelDrill.setAttribute(
-    "animation",
-    "property: position; to: -10 0 0; dur: 8000"
-  ); //Simular furadeira na placa metálica
-  alert("Teste");
-  setTimeout(hideOk(), 2000);
-  setTimeout(showCorrect, 500); //mostrar acerto depois de 1 segundos
-  setTimeout(function() {
-    alert("Você concluiu o treinamento!\n\nParabéns!!\n\n");
-  }, 5000);
-  setTimeout(function() {
-    window.location.href = "/index.html";
-  }, 5001);
-});
-final = true;
+// markerLetterU.addEventListener("markerFound", function() {
+//   setTimeout(function() {
+//     modelDrill.setAttribute("visible", false);
+//   }, 0);
+//   setTimeout(function() {
+//     modelTripod.setAttribute("visible", false);
+//   }, 0);
+//   modelDrill.setAttribute(
+//     "animation",
+//     "property: position; to: -10 0 0; dur: 8000"
+//   ); //Simular furadeira na placa metálica
+//   setTimeout(hideOk(), 2000);
+//   setTimeout(showCorrect, 500); //mostrar acerto depois de 1 segundos
+//   setTimeout(function() {
+//     alert("Você concluiu o treinamento!\n\nParabéns!!\n\n");
+//   }, 5000);
+//   setTimeout(function() {
+//     window.location.href = "/index.html";
+//   }, 5001);
+// });
+// final = true;
 
 // //Lost Tripod
 // var markerTripod = document.getElementById("markerTripod");

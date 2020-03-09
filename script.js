@@ -81,8 +81,9 @@ function showCorrect() {
 //Load Drill
 var markerLetterU = document.getElementById("markerLetterU");
 markerLetterU.addEventListener("markerFound", function() {
-  console.log("DEU PARAÇA!!!")
   if (final != true) {
+    alert("Teste");
+
     tripod = true;
 
     setTimeout(function() {
@@ -93,21 +94,6 @@ markerLetterU.addEventListener("markerFound", function() {
       "property: position; to: 0 0 0; dur: 0"
     );
     drill = true;
-    if (tripod == false) {
-      setTimeout(hideMetalPlate, 2000); //esconder chapa metalica depois de 2 segundos
-      modelDrill.setAttribute(
-        "animation",
-        "property: position; to: -10 0 0; dur: 8000"
-      ); //Simular furadeira na placa metálica
-      setTimeout(function() {
-        modelDrill.setAttribute("visible", false);
-      }, 1950); //esconder furadeira do marker depois de 2 segundos
-
-      setTimeout(showError, 2000); //mostrar erro depois de 2 segundos
-      setTimeout(function() {
-        alert("Retire o marker da furadeira e aguarde o erro desaparecer.");
-      }, 2000);
-    }
   }
 });
 //Lost Drill

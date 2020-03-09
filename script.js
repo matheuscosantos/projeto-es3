@@ -81,6 +81,7 @@ function showCorrect() {
 //Load Drill
 var markerLetterU = document.getElementById("markerLetterU");
 markerLetterU.addEventListener("markerFound", function() {
+  console.log("DEU PARAÇA!!!")
   if (final != true) {
     tripod = true;
 

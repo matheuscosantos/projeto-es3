@@ -2,6 +2,9 @@
   <body>
     <script>
       //RECONHECIMENTO DA PAGINA SENDO CARREGADA VIA SMARTPHONE
+      var drill=false;
+      var tripod=false;
+      
       function detectar_mobile() {
         if (
           navigator.userAgent.match(/Android/i) ||
@@ -18,6 +21,8 @@
           return false;
         }
       }
+      
+      var final=false;
 
       if (detectar_mobile() == true) {
         //Alterar para pagina mobile

@@ -1,6 +1,3 @@
-var markerUModel = document.getElementById("letterUModel")
-var markerU = document.getElementById("markerLetterU");
-
 markerU.addEventListener('markerFound', function(){
   if(final != true) {
     setTimeout(function(){modelDrill.setAttribute('visible', true)}, 0);
@@ -8,6 +5,14 @@ markerU.addEventListener('markerFound', function(){
     console.log("Teste");
   }
 }
+          
+                         
+var markerUModel = document.getElementById("letterUModel")
+var markerU = document.getElementById("markerLetterU");
+
+<a-marker id="markerLetterU" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/imagens-app/master/pattern-U.patt">
+<a-entity id="letterUModel" gltf-model="#Drill" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+</a-marker>
 
 
 

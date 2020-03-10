@@ -4,11 +4,17 @@ var markerLetterU = document.getElementById("markerLetterU");
 
 var palavra = [];
 
+async function leMarcador(){
+  
+}
+
 markerLetterU.addEventListener('markerFound', function(){
-      palavra.push("U");
+  palavra.push("U");
+  alert(palavra);
 });
 
 
 markerLetterU.addEventListener('markerLost', function(){
-  alert(palavra)
+  palavra.pop();
+  alert(palavra);
 });

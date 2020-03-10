@@ -1,12 +1,10 @@
 var final = false;
 
 var markerLetterU = document.getElementById("markerLetterU");
+var markerLetterS = document.getElementById("markerLetterS");
+
 
 var palavra = [];
-
-async function leMarcador(){
-  
-}
 
 markerLetterU.addEventListener('markerFound', function(){
   palavra.push("U");
@@ -14,7 +12,8 @@ markerLetterU.addEventListener('markerFound', function(){
 });
 
 
-markerLetterU.addEventListener('markerLost', function(){
-  palavra.pop();
+markerLetterS.addEventListener('markerFound', function(){
+  palavra.push("S");
   alert(palavra);
 });
+

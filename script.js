@@ -17,3 +17,7 @@ markerLetterS.addEventListener('markerFound', function(){
   alert(palavra);
 });
 
+markerLetterU.addEventListener('markerLost', function(){
+  palavra.filter( e => e !== 'U')
+});
+

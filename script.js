@@ -7,8 +7,20 @@ var markerLetterS = document.getElementById("markerLetterS");
 var palavra = [];
 
 markerLetterU.addEventListener('markerFound', function(){
-  palavra.push("U");
-  alert(palavra);
+  var existe = false;
+  palavra.forEach(item => { 
+     if (item === "U") {
+       existe = true;
+     } 
+  });
+  
+  if(existe == false){
+    palavra.push("U");
+    alert(palavra);
+  }else{
+    alert("Essa letra já existe, a palavra é: " + palavra);
+  };
+  
 });
 
 markerLetterS.addEventListener('markerFound', function(){

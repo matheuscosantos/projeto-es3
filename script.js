@@ -1,7 +1,11 @@
 var final = false;
 
 var markerLetterU = document.getElementById("markerLetterU");
+var markerLetterR = document.getElementById("markerLetterR");
+
 var markerLetterS = document.getElementById("markerLetterS");
+var markerLetterO = document.getElementById("markerLetterO");
+
 
 
 var palavra = [];
@@ -9,8 +13,6 @@ var palavra = [];
 var verificarLetra = (letra) => {
   // Essa função é chamada para verificar
   // se já existe algum letra no array "palavra"
-  
-  this.
   
   var existe = false;
   palavra.forEach(item => { 
@@ -31,11 +33,15 @@ markerLetterU.addEventListener('markerFound', function(){
   verificarLetra("U");
 });
 
+markerLetterR.addEventListener('markerFound', function(){
+  verificarLetra("R");
+});
+
 markerLetterS.addEventListener('markerFound', function(){
   verificarLetra("S");
 });
 
-markerLetterU.addEventListener('markerLost', function(){
-  palavra.filter( e => e !== 'U')
+markerLetterO.addEventListener('markerFound', function(){
+  verificarLetra("O");
 });
 

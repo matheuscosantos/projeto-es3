@@ -11,7 +11,6 @@ markerLetterU.addEventListener('markerFound', function(){
   alert(palavra);
 });
 
-
 markerLetterS.addEventListener('markerFound', function(){
   palavra.push("S");
   alert(palavra);

@@ -28,11 +28,7 @@ var verificarLetra = (letra) => {
     
     alert(palavra);
     
-  }else{
-    
-    alert("Essa letra já existe, a palavra é: " + palavra);
-    
-  };
+  }
   
 };
 

@@ -4,29 +4,26 @@
     <body id="corpo" style="margin : 0px; overflow: hidden;"> 
         <a-scene arjs="debugUIEnabled: false;">
             <a-assets> 
-                <!--Modelo 3d Drill-->
-                <a-asset-item id="DrillU" src="https://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Models/Drill/scene.gltf"></a-asset-item> 
-                <a-asset-item id="DrillR" src="https://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Models/Drill/scene.gltf"></a-asset-item>  
-                <a-asset-item id="DrillS" src="https://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Models/Drill/scene.gltf"></a-asset-item> 
-                <a-asset-item id="DrillO" src="https://raw.githubusercontent.com/wesleyvs/RealidadeAumentada/master/Models/Drill/scene.gltf"></a-asset-item> 
+                <a-asset-item id="ModelLetterU" src="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Models/UU.gltf"></a-asset-item> 
+                <a-asset-item id="ModelLetterR" src="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Models/RR.gltf"></a-asset-item>  
+                <a-asset-item id="ModelLetterS" src="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Models/SS.gltf"></a-asset-item> 
+                <a-asset-item id="ModelLetterO" src="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Models/OO.gltf"></a-asset-item> 
             </a-assets> 
-          
-            <!--Marker da furadeira-->
-                     
-              <a-marker id="markerLetterU" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/imagens-app/master/pattern-U.patt">
-                <a-entity id="letterUModel" gltf-model="#DrillU" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+                               
+              <a-marker id="markerLetterU" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Markers/pattern-U.patt">
+                <a-entity id="letterUModel" gltf-model="#ModelLetterU" scale="0.03 0.03 0.03" rotation="-75 0 0" position="0 1 0"></a-entity> 
               </a-marker>
           
-              <a-marker id="markerLetterR" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/imagens-app/master/pattern-R.patt">
-                <a-entity id="letterRModel" gltf-model="#DrillR" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+              <a-marker id="markerLetterR" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Markers/pattern-R.patt">
+                <a-entity id="letterRModel" gltf-model="#ModelLetterR" scale="0.03 0.03 0.03" rotation="-75 0 0" position="0 1 0"></a-entity> 
               </a-marker>
           
-              <a-marker id="markerLetterS" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/imagens-app/master/pattern-S.patt">
-                <a-entity id="letterSModel" gltf-model="#DrillS" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+              <a-marker id="markerLetterS" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Markers/pattern-S.patt">
+                <a-entity id="letterSModel" gltf-model="#ModelLetterS" scale="0.03 0.03 0.03" rotation="-75 0 0" position="0 1 0"></a-entity> 
               </a-marker>
           
-              <a-marker id="markerLetterO" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/imagens-app/master/pattern-O.patt">
-                <a-entity id="letterOModel" gltf-model="#DrillO" scale="25 25 25" rotation="270 0 0" position="0 0 0"></a-entity> 
+              <a-marker id="markerLetterO" preset="pattern" type="pattern" url="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Markers/pattern-O.patt">
+                <a-entity id="letterOModel" gltf-model="#ModelLetterO" scale="0.03 0.03 0.03" rotation="-75 0 0" position="0 1 0"></a-entity>  
               </a-marker>
           
             <a-entity camera></a-entity> 

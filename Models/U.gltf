@@ -1,128 +1,214 @@
 {
-	"accessors" : 
-	[
-		{
-			"bufferView" : 0,
-			"componentType" : 5125,
-			"count" : 852,
-			"type" : "SCALAR"
-		},
-		{
-			"bufferView" : 1,
-			"componentType" : 5126,
-			"count" : 852,
-			"type" : "VEC3"
-		},
-		{
-			"bufferView" : 2,
-			"componentType" : 5126,
-			"count" : 852,
-			"type" : "VEC3"
-		},
-		{
-			"bufferView" : 3,
-			"componentType" : 5126,
-			"count" : 82,
-			"type" : "SCALAR"
-		}
-	],
-	"asset" : 
-	{
-		"version" : "2.0"
-	},
-	"bufferViews" : 
-	[
-		{
-			"buffer" : 0,
-			"byteLength" : 3408
-		},
-		{
-			"buffer" : 0,
-			"byteLength" : 10224,
-			"byteOffset" : 3408
-		},
-		{
-			"buffer" : 0,
-			"byteLength" : 10224,
-			"byteOffset" : 13632
-		},
-		{
-			"buffer" : 0,
-			"byteLength" : 328,
-			"byteOffset" : 23856,
-			"byteStride" : 4
-		}
-	],
-	"buffers" : 
-	[
-		{
-			"byteLength" : 24184,
-			"uri" : "model.bin"
-		}
-	],
-	"materials" : 
-	[
-		{
-			"name" : "defaultMat-0"
-		}
-	],
-	"meshes" : 
-	[
-		{
-			"primitives" : 
-			[
-				{
-					"attributes" : 
-					{
-						"NORMAL" : 2,
-						"POSITION" : 1
-					},
-					"indices" : 0,
-					"material" : 0
-				}
-			]
-		}
-	],
-	"nodes" : 
-	[
-		{
-			"children" : 
-			[
-				1
-			],
-			"name" : "RootNode"
-		},
-		{
-			"children" : 
-			[
-				2
-			],
-			"name" : "TextPlus001",
-			"rotation" : 
-			[
-				2.185569414336897e-08,
-				0,
-				0,
-				0.9999999999999998
-			],
-			"scale" : 
-			[
-				1,
-				1,
-				1
-			]
-		},
-		{
-			"mesh" : 0
-		}
-	],
-	"scenes" : 
-	[
-		{
-			"nodes" : 
-			[
-				0
-			]
-		}
-	]
+   "accessors" : [
+      {
+         "bufferView" : 0,
+         "componentType" : 5125,
+         "count" : 852,
+         "type" : "SCALAR"
+      },
+      {
+         "bufferView" : 1,
+         "componentType" : 5126,
+         "count" : 852,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 2,
+         "componentType" : 5126,
+         "count" : 852,
+         "type" : "VEC3"
+      },
+      {
+         "bufferView" : 3,
+         "componentType" : 5126,
+         "count" : 82,
+         "type" : "SCALAR"
+      }
+   ],
+   "asset" : {
+      "extras" : {
+         "GOOGLE_processor_version" : 294144208
+      },
+      "version" : "2.0"
+   },
+   "bufferViews" : [
+      {
+         "buffer" : 0,
+         "byteLength" : 3408
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 10224,
+         "byteOffset" : 3408
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 10224,
+         "byteOffset" : 13632
+      },
+      {
+         "buffer" : 0,
+         "byteLength" : 328,
+         "byteOffset" : 23856,
+         "byteStride" : 4
+      }
+   ],
+   "buffers" : [
+      {
+         "byteLength" : 24184,
+         "uri" : "model.bin"
+      }
+   ],
+   "cameras" : [
+      {
+         "perspective" : {
+            "yfov" : 0.7853981633974483,
+            "znear" : 0.1000000014901161
+         },
+         "type" : "perspective"
+      }
+   ],
+   "extensions" : {
+      "KHR_lights_punctual" : {
+         "lights" : [
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.25,
+               "name" : "headLight",
+               "type" : "directional"
+            },
+            {
+               "color" : [ 1, 0.9333333333333333, 0.8666666666666667 ],
+               "intensity" : 0.324999988079071,
+               "name" : "keyLight",
+               "type" : "directional"
+            }
+         ]
+      }
+   },
+   "extensionsUsed" : [ "GOOGLE_backgrounds", "GOOGLE_camera_settings", "KHR_lights_punctual" ],
+   "extras" : {
+      "GOOGLE_initial_camera_motion" : {
+         "motionPath" : "FULL_ROTATION"
+      },
+      "GOOGLE_lighting_rig" : {
+         "disableShadows" : false
+      }
+   },
+   "materials" : [
+      {
+         "name" : "defaultMat-0"
+      }
+   ],
+   "meshes" : [
+      {
+         "primitives" : [
+            {
+               "attributes" : {
+                  "NORMAL" : 2,
+                  "POSITION" : 1
+               },
+               "indices" : 0,
+               "material" : 0
+            }
+         ]
+      }
+   ],
+   "nodes" : [
+      {
+         "children" : [ 1 ],
+         "name" : "RootNode"
+      },
+      {
+         "children" : [ 2 ],
+         "name" : "TextPlus001",
+         "rotation" : [ 2.185569414336897e-08, 0, 0, 0.9999999999999998 ],
+         "scale" : [ 1, 1, 1 ]
+      },
+      {
+         "mesh" : 0
+      },
+      {
+         "children" : [ 4 ]
+      },
+      {
+         "children" : [ 5 ],
+         "extras" : {
+            "isTransformNode" : 1
+         },
+         "translation" : [ -0.04549763965204523, 7.141961302214936, 0.0005003442509230134 ]
+      },
+      {
+         "children" : [ 0 ],
+         "translation" : [ 0.04549763965204523, -7.141961302214936, -0.0005003442509230134 ]
+      },
+      {
+         "camera" : 0,
+         "children" : [ 7 ],
+         "rotation" : [
+            -1.388385854423169e-16,
+            -1.010647281139678e-15,
+            -1.403168388945565e-31,
+            1
+         ],
+         "translation" : [ -0.04548365543827536, 7.142052199604747, 25.58930670872185 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 0
+            }
+         },
+         "extras" : {
+            "isHeadLight" : 1
+         },
+         "name" : "headLightNode",
+         "translation" : [ -15.74895357036677, 7.874476785183385, 7.874476785183385 ]
+      },
+      {
+         "extensions" : {
+            "KHR_lights_punctual" : {
+               "light" : 1
+            }
+         },
+         "extras" : {
+            "isKeyLight" : 1
+         },
+         "name" : "keyLightNode",
+         "rotation" : [ -0.7505326882858236, -0.3752663441429118, 0, 0.5439447166468927 ],
+         "scale" : [ 0, 0, 15.90644310607044 ],
+         "translation" : [ -16.16330270101773, 35.11032992932996, -15.90594296191085 ]
+      }
+   ],
+   "scene" : 0,
+   "scenes" : [
+      {
+         "extensions" : {
+            "GOOGLE_backgrounds" : {
+               "color" : [ 0.9803921568627451, 0.9803921568627451, 0.9803921568627451 ]
+            },
+            "GOOGLE_camera_settings" : {
+               "pivot" : [ 0, 0, 0 ]
+            }
+         },
+         "extras" : {
+            "GOOGLE_camera_index" : {
+               "cameraIndex" : 0,
+               "nodeIndex" : 6
+            },
+            "GOOGLE_geometry_data" : {
+               "stats" : {
+                  "centroid" : [ -0.2568595949472956, 3.297443717189087, 0.0005001441595914027 ],
+                  "radius" : 15.74895357036677,
+                  "stdev" : 5.299615320551415
+               },
+               "visualCenterPoint" : [ -0.04549763965204523, 7.141961302214936, 0.0005003442509230134 ]
+            },
+            "GOOGLE_hemi_light" : {
+               "groundColor" : [ 0.9803921568627451, 0.9803921568627451, 0.9803921568627451 ]
+            }
+         },
+         "nodes" : [ 3, 6, 8 ]
+      }
+   ]
 }

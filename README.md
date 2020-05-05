@@ -21,4 +21,6 @@ que para sanar as duvidas a professora só pode atender a cada criança individu
 
 Criar uma aplicação que auxilie no aprendizado das crianças e identifique e suas expreções faciais se estão obtendo compreenção 
 do que está sendo ensinado atravez dos dispositivos que estão usando.
+
+
  

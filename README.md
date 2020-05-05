@@ -1,13 +1,11 @@
-# Engenharia de Software III
+# Engenharia de Software III (4º ADS A)
 
 Profº Giuliano Bertoti
 
- 
+##### Equipe de alunos. 
 
-Equipe de alunos. 
-
-  - João Bertoti - 123456789
-  - Marilia Araujo - 98754321
+  - Matheus da Cruz Oliveira - **RA:** 1460481821060
+  - Pablo Gabriel Rufino Barbosa - **RA:** 14604821070
 
 ## Projeto para auxílio na educação infantil
 
@@ -19,7 +17,7 @@ pois nao conseguem diretamente dar a devida atenção a todos os alunos.
 Se várias crianças possuem duvidas e precisam de uma atenção individual para cada duvida, como reexplicar a todos a informação sendo
 que para sanar as duvidas a professora só pode atender a cada criança individualmente.
 
+#### Solução
 
-# Projeto de Engenharia de Software 3 (4º ADS A)
-
+Criar uma aplicação que 
  

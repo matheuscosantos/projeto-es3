@@ -22,5 +22,9 @@ que para sanar as duvidas a professora só pode atender a cada criança individu
 Criar uma aplicação que auxilie no aprendizado das crianças e identifique e suas expreções faciais se estão obtendo compreenção 
 do que está sendo ensinado atravez dos dispositivos que estão usando.
 
+![image](https://user-images.githubusercontent.com/39538844/81083308-ca7dc700-8eca-11ea-8d5c-8dbc526430f9.png)
 
+#### Aplicação
+
+Toda a aplicação está sendo executada no arquivo *application.html*
  

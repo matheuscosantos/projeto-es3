@@ -27,4 +27,18 @@ dispositivos móveis.
 
 Toda a aplicação está sendo executada no arquivo *application.html*. Primeiramente será implementada a exibição de letras em formato
 tridimensional para o aprendizado da criança.
- 
+
+#### Resultados obtidos
+
+Os resultados obtidos durante o desenvolvimento, para demonstração foi utilizada a palavra "Urso":
+
+- Identificação do marcador que está no celular, fazendo com que seja exibida a letra referente a ele.
+![GitHub teste](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/Screenshot%20from%202020-05-18%2009-55-57.png)
+
+
+- Formação da palavra de acordo com a letras exibidas pelo usuário, ao acertar todas letras, é exibida a mensagem "Palavra correta"
+![Formação da palavra](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/Screenshot%20from%202020-05-18%2009-51-46.png)
+
+
+
+

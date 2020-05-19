@@ -1,126 +1,114 @@
 <html>
-  <head> </head>
-  <body>
-    <div>
+  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  <script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.5/aframe/build/aframe-ar.js"></script>
+  <body id="corpo" style="margin : 0px; overflow: hidden;">
+    <div style="margin-top: 30px">
       <h1>
-        teste muito loko de div
+        titulozão do bom!!
       </h1>
+      <p>
+        testes teste s afasafa
+      </p>
     </div>
-    <div>
-      <html>
-        <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
-        <script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.5/aframe/build/aframe-ar.js"></script>
-        <body id="corpo" style="margin : 0px; overflow: hidden;">
-          <div style="margin-top: 30px">
-            <h1>
-              titulozão do bom!!
-            </h1>
-            <p>
-              testes teste s afasafa
-            </p>
-          </div>
-          <a-scene arjs="debugUIEnabled: false;">
-            <a-assets>
-              <!--                Model                  -->
-              <a-asset-item
-                id="ModelLetterU"
-                src="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Models/UU.gltf"
-              >
-              </a-asset-item>
+    <a-scene arjs="debugUIEnabled: false;">
+      <a-assets>
+        <!--                Model                  -->
+        <a-asset-item
+          id="ModelLetterU"
+          src="https://raw.githubusercontent.com/matheuscosantos/EngenhariaSoftwareIII/master/Models/UU.gltf"
+        >
+        </a-asset-item>
 
-              <a-asset-item
-                id="ModelLetterO"
-                src="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Models/OO.gltf"
-              >
-              </a-asset-item>
+        <a-asset-item
+          id="ModelLetterO"
+          src="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Models/OO.gltf"
+        >
+        </a-asset-item>
 
-              <a-asset-item
-                id="ModelLetterR"
-                src="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Models/RR.gltf"
-              >
-              </a-asset-item>
+        <a-asset-item
+          id="ModelLetterR"
+          src="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Models/RR.gltf"
+        >
+        </a-asset-item>
 
-              <a-asset-item
-                id="ModelLetterS"
-                src="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Models/SS.gltf"
-              >
-              </a-asset-item>
-            </a-assets>
+        <a-asset-item
+          id="ModelLetterS"
+          src="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Models/SS.gltf"
+        >
+        </a-asset-item>
+      </a-assets>
 
-            <!--                Model                  -->
+      <!--                Model                  -->
 
-            <!--                Marker                  -->
+      <!--                Marker                  -->
 
-            <a-marker
-              id="markerLetterU"
-              preset="pattern"
-              type="pattern"
-              url="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Markers/pattern-U.patt"
-            >
-              <a-entity
-                id="letterUModel"
-                gltf-model="#ModelLetterU"
-                scale="0.03 0.03 0.03"
-                rotation="-75 0 0"
-                position="0 1 0"
-              ></a-entity>
-            </a-marker>
+      <a-marker
+        id="markerLetterU"
+        preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Markers/pattern-U.patt"
+      >
+        <a-entity
+          id="letterUModel"
+          gltf-model="#ModelLetterU"
+          scale="0.03 0.03 0.03"
+          rotation="-75 0 0"
+          position="0 1 0"
+        ></a-entity>
+      </a-marker>
 
-            <a-marker
-              id="markerLetterR"
-              preset="pattern"
-              type="pattern"
-              url="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Markers/pattern-R.patt"
-            >
-              <a-entity
-                id="letterRModel"
-                gltf-model="#ModelLetterR"
-                scale="0.03 0.03 0.03"
-                rotation="-75 0 0"
-                position="0 1 0"
-              ></a-entity>
-            </a-marker>
+      <a-marker
+        id="markerLetterR"
+        preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Markers/pattern-R.patt"
+      >
+        <a-entity
+          id="letterRModel"
+          gltf-model="#ModelLetterR"
+          scale="0.03 0.03 0.03"
+          rotation="-75 0 0"
+          position="0 1 0"
+        ></a-entity>
+      </a-marker>
 
-            <a-marker
-              id="markerLetterS"
-              preset="pattern"
-              type="pattern"
-              url="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Markers/pattern-S.patt"
-            >
-              <a-entity
-                id="letterSModel"
-                gltf-model="#ModelLetterS"
-                scale="0.03 0.03 0.03"
-                rotation="-75 0 0"
-                position="0 1 0"
-              ></a-entity>
-            </a-marker>
+      <a-marker
+        id="markerLetterS"
+        preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Markers/pattern-S.patt"
+      >
+        <a-entity
+          id="letterSModel"
+          gltf-model="#ModelLetterS"
+          scale="0.03 0.03 0.03"
+          rotation="-75 0 0"
+          position="0 1 0"
+        ></a-entity>
+      </a-marker>
 
-            <a-marker
-              id="markerLetterO"
-              preset="pattern"
-              type="pattern"
-              url="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Markers/pattern-O.patt"
-            >
-              <a-entity
-                id="letterOModel"
-                gltf-model="#ModelLetterO"
-                scale="0.03 0.03 0.03"
-                rotation="-75 0 0"
-                position="0 1 0"
-              ></a-entity>
-            </a-marker>
+      <a-marker
+        id="markerLetterO"
+        preset="pattern"
+        type="pattern"
+        url="https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Markers/pattern-O.patt"
+      >
+        <a-entity
+          id="letterOModel"
+          gltf-model="#ModelLetterO"
+          scale="0.03 0.03 0.03"
+          rotation="-75 0 0"
+          position="0 1 0"
+        ></a-entity>
+      </a-marker>
 
-            <!--                Marker                  -->
+      <!--                Marker                  -->
 
-            <a-entity camera></a-entity>
-          </a-scene>
+      <a-entity camera></a-entity>
+    </a-scene>
 
-          <div id="load"></div>
+    <div id="load"></div>
 
-          <script src="script.js"></script>
-        </body>
-      </html>
-    </div>
+    <script src="script.js"></script>
   </body>
 </html>

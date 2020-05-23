@@ -1,3 +1,9 @@
+var teste = document.getElementById('teste');
+
+teste.addEventListener('mouserover', function(){
+  alert("foi filhão");
+});
+
 var final = false;
 
 var markerLetterU = document.getElementById("markerLetterU");

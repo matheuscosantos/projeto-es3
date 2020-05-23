@@ -1,5 +1,10 @@
 var teste = document.getElementById('teste');
 
+/*
+Usar a tag iframe pra colocar todo o Html dentro da página criar todo o front-end
+da aplicação conforme foi ideializado
+*/
+
 teste.addEventListener('mouserover', function(){
   alert("foi filhão");
 });

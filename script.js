@@ -39,10 +39,7 @@ var verificarLetra = (letra) => {
     
     console.log(palavra)
     
-  }
-
-  // ===============================================
-  
+  } 
 };
 
 markerLetterU.addEventListener('markerFound', function(){

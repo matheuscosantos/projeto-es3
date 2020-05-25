@@ -85,5 +85,5 @@ markerLetterO.addEventListener('markerFound', function(){
 
 function addLetter(letter) {
  let divPalavra = document.getElementById('teste');
-  
+ var h1Letra = document.createElement('h1'); 
 }

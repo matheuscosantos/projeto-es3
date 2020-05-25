@@ -37,6 +37,8 @@ var verificarLetra = (letra) => {
     
     palavra.push(letra);
     
+    addLetter(letra);
+    
     console.log(palavra)
     
   } 

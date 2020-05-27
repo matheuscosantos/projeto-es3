@@ -1,18 +1,42 @@
-a-scene{
-  z-index: 0;
+#corpo{
+  display: flex;
+  flex-flow: column;
+  height: 95%;
+  border: 5px solid rgb(106, 200, 255);
 }
 
-#teste{
+#camera{
+  background-color: rgb(231, 167, 167)(231, 150, 150);
+  width: auto;
+  height: 100%;
+  border-top: 5px solid rgb(106, 200, 255);
+}
+
+#camera iframe{
+  border: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+#animal{
+  display: flex;
+  flex-direction: row;
+  background-color: #5fff94;
+  justify-content: center;
+}
+
+#animal #palavra{
   color: red;
-  border-radius: 7px;
-  border: 3px solid red;
-  display: inline-block;
-  margin-left: 20px;
-  padding-right: 15px;
-  padding-left: 15px;
+  display: flex;
+  flex-direction: row;
 }
 
-#teste div {
-  margin: 15px 10px;
+#animal #palavra div {
+  margin: 10px 5px;
+  display: flex;
+  align-items: center;
+}
+
+#animal #palavra div h1{
   border-bottom: orange solid 3px;
 }

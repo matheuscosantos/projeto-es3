@@ -23,7 +23,7 @@ var palavraUrso = ["U","R","S","O"];
 
 function addLetter(letter) {
   let letraHtml = document.getElementById(letter);
-  letraHtml
+  letraHtml.style.color = 'red';
 }
 
 var verificarLetra = (letra) => {

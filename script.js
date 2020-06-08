@@ -18,6 +18,7 @@ var palavraUrso = ["U","R","S","O"];
 
 
 function addLetter(letter) {
+  debugger;
   let letraHtml = document.getElementById(letter);
   letraHtml.style.color = 'red';
 }

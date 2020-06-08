@@ -5,10 +5,6 @@ Usar a tag iframe pra colocar todo o Html dentro da página criar todo o front-e
 da aplicação conforme foi ideializado
 */
 
-teste.addEventListener('mouseover', function(){
-  alert("foi filhão");
-});
-
 var final = false;
 
 var markerLetterU = document.getElementById("markerLetterU");

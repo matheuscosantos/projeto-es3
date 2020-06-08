@@ -19,6 +19,13 @@ var markerLetterO = document.getElementById("markerLetterO");
 var palavra = [];
 var palavraUrso = ["U","R","S","O"];
 
+
+
+function addLetter(letter) {
+  let letraHtml = document.getElementById(letter);
+  letraHtml
+}
+
 var verificarLetra = (letra) => {
   // Essa função é chamada para verificar
   // se já existe algum letra no array "palavra"
@@ -83,12 +90,3 @@ markerLetterO.addEventListener('markerFound', function(){
   }
   
 });
-
-
-function addLetter(letter) {
-  alert('foi filhão');
-  let divPalavra = document.getElementById('teste');
-  var h1Letra = document.createElement('h1');
-  h1Letra.innerText = letter;
-  divPalavra.appendChild(h1Letra);
-}

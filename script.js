@@ -1,11 +1,11 @@
-var teste = document.getElementById('teste');
+var frame = document.getElementById('frameID');
 
 var final = false;
 
-var markerLetterU = document.getElementById("markerLetterU");
-var markerLetterR = document.getElementById("markerLetterR");
-var markerLetterS = document.getElementById("markerLetterS");
-var markerLetterO = document.getElementById("markerLetterO");
+var markerLetterU = frame.contentDocument.getElementById("markerLetterU");
+var markerLetterR = frame.contentDocument.getElementById("markerLetterR");
+var markerLetterS = frame.contentDocument.getElementById("markerLetterS");
+var markerLetterO = frame.contentDocument.getElementById("markerLetterO");
 
 var palavra = [];
 var palavraUrso = ["U","R","S","O"];

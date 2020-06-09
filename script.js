@@ -9,6 +9,7 @@ document.onload = function() {
   var markerLetterO = null;
 
   frame.contentDocument.onload = () => {
+    debugger;
     markerLetterU = frame.contentDocument.getElementById("markerLetterU");
     markerLetterR = frame.contentDocument.getElementById("markerLetterR");
     markerLetterS = frame.contentDocument.getElementById("markerLetterS");

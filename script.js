@@ -1,4 +1,4 @@
-document.onload = function() {
+window.onload = function() {
   var frame = document.getElementById("frameID");
 
   var final = false;

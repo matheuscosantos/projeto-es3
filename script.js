@@ -1,10 +1,5 @@
 var teste = document.getElementById('teste');
 
-/*
-Usar a tag iframe pra colocar todo o Html dentro da página criar todo o front-end
-da aplicação conforme foi ideializado
-*/
-
 var final = false;
 
 var markerLetterU = document.getElementById("markerLetterU");
@@ -18,7 +13,6 @@ var palavraUrso = ["U","R","S","O"];
 
 
 function addLetter(letter) {
-  debugger;
   let letraHtml = document.getElementById(letter);
   letraHtml.style.color = 'red';
 }

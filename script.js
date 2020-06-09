@@ -10,13 +10,6 @@ var markerLetterO = document.getElementById("markerLetterO");
 var palavra = [];
 var palavraUrso = ["U","R","S","O"];
 
-
-
-function addLetter(letter) {
-  let letraHtml = document.getElementById(letter);
-  letraHtml.style.color = 'red';
-}
-
 var verificarLetra = (letra) => {
   // Essa função é chamada para verificar
   // se já existe algum letra no array "palavra"

@@ -14,7 +14,7 @@ window.onload = function() {
   function addLetter(letter) {
     let letraHtml = document.getElementById(letter);
     letraHtml.style.color = "red";
-    letraH
+    letraHtml.style.backgroundColor = 'white';
   }
 
   var verificarLetra = letra => {

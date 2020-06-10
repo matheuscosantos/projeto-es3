@@ -3,23 +3,18 @@ window.onload = function() {
 
   var final = false;
 
-  var markerLetterU = null;
-  var markerLetterR = null;
-  var markerLetterS = null;
-  var markerLetterO = null;
-  debugger;
-  markerLetterU = frame.contentDocument.getElementById("markerLetterU");
-  markerLetterR = frame.contentDocument.getElementById("markerLetterR");
-  markerLetterS = frame.contentDocument.getElementById("markerLetterS");
-  markerLetterO = frame.contentDocument.getElementById("markerLetterO");
+  var markerLetterU = frame.contentDocument.getElementById("markerLetterU");
+  var markerLetterR = frame.contentDocument.getElementById("markerLetterR");
+  var markerLetterS = frame.contentDocument.getElementById("markerLetterS");
+  var markerLetterO = frame.contentDocument.getElementById("markerLetterO");
 
   var palavra = [];
   var palavraUrso = ["U", "R", "S", "O"];
 
   function addLetter(letter) {
     let letraHtml = document.getElementById(letter);
-    console.log(letraHtml);
     letraHtml.style.color = "red";
+    letraH
   }
 
   var verificarLetra = letra => {

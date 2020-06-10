@@ -7,14 +7,11 @@ window.onload = function() {
   var markerLetterR = null;
   var markerLetterS = null;
   var markerLetterO = null;
-
-  frame.contentDocument.onload = () => {
-    debugger;
-    markerLetterU = frame.contentDocument.getElementById("markerLetterU");
-    markerLetterR = frame.contentDocument.getElementById("markerLetterR");
-    markerLetterS = frame.contentDocument.getElementById("markerLetterS");
-    markerLetterO = frame.contentDocument.getElementById("markerLetterO");
-  };
+  debugger;
+  markerLetterU = frame.contentDocument.getElementById("markerLetterU");
+  markerLetterR = frame.contentDocument.getElementById("markerLetterR");
+  markerLetterS = frame.contentDocument.getElementById("markerLetterS");
+  markerLetterO = frame.contentDocument.getElementById("markerLetterO");
 
   var palavra = [];
   var palavraUrso = ["U", "R", "S", "O"];

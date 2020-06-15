@@ -23,7 +23,7 @@ window.onload = function() {
   function visualizarAnimal(palavra) {
     if(palavra.length == 4){
       let animal = document.getElementById('imgAnimal');
-      animal.
+      animal.classList.remove('d-none');
     }
   }
   

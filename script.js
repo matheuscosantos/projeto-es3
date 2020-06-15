@@ -22,7 +22,8 @@ window.onload = function() {
 
   function visualizarAnimal(palavra) {
     if(palavra.length == 4){
-      document.getElementById('imgAnimal')
+      let animal = document.getElementById('imgAnimal');
+      animal.
     }
   }
   

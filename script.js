@@ -12,11 +12,20 @@ window.onload = function() {
   var palavraUrso = ["U", "R", "S", "O"];
 
   function addLetter(letter) {
+    // função para alterar o aspecti visual de cada letra
+    // que for encontrada uma letra na tela 
+    
     let letraHtml = document.getElementById(letter);
     letraHtml.style.color = "red";
     letraHtml.style.backgroundColor = 'white';
   }
 
+  function visualizarAnimal(palavra) {
+    if(palavra.length == 4){
+      document.getElementById('imgAnimal')
+    }
+  }
+  
   var verificarLetra = letra => {
     // Essa função é chamada para verificar
     // se já existe algum letra no array "palavra"

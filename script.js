@@ -23,7 +23,6 @@ window.onload = function() {
   function visualizarAnimal(palavra, frame) {
     // Visualização do animal caso a palavra tenha sido formada
     if(palavra.length == 4){
-      
       let animal = frame.contentDocument.getElementById('imgAnimal');
       animal.classList.remove('d-none');
     }
@@ -46,6 +45,7 @@ window.onload = function() {
       addLetter(letra);
 
       console.log(palavra);
+      visualizarAnimal(palavra, frame);
     }
   };
 

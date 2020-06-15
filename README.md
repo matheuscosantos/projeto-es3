@@ -24,7 +24,6 @@ que para sanar as duvidas a professora só pode atender a cada criança individu
 Criar uma aplicação que auxilie no aprendizado das crianças de modo mais interativo com figuras em realidade virtual com os auxilio de
 dispositivos móveis.
 
-
 #### Aplicação
 
 Toda a aplicação está sendo executada no arquivo *application.html*. Primeiramente será implementada a exibição de letras em formato
@@ -35,18 +34,22 @@ tridimensional para o aprendizado da criança.
 Os resultados obtidos durante o desenvolvimento, para demonstração foi utilizada a palavra "Urso":
 
 - Identificação do marcador que está no celular, fazendo com que seja exibida a letra referente a ele.
-<p>  <br />
+<p><br/>
 
-![GitHub teste](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/Screenshot%20from%202020-05-18%2009-55-57.png)
+![GitHub teste](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/letra.png)
 
-
-<p>  <br />
+<p><br/>
 
 - Formação da palavra de acordo com a letras exibidas pelo usuário, ao acertar todas letras, é exibida a mensagem "Palavra correta"
-<p>  <br />
+<p><br/>
 
-![Formação da palavra](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/Screenshot%20from%202020-05-18%2009-51-46.png)
+![Formação da palavra](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/palavra_formada.png)
 
+#### Tela inicial
+![Formação da palavra](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/index.png)
 
+#### Tela para escolha das palavras
+![Formação da palavra](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/tela_animais.png)
 
-
+#### Tela de regras
+![Formação da palavra](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/tela_regras.png)

@@ -20,9 +20,11 @@ window.onload = function() {
     letraHtml.style.backgroundColor = 'white';
   }
 
-  function visualizarAnimal(palavra) {
+  function visualizarAnimal(palavra, frame) {
+    // Visualização do animal caso a palavra tenha sido formada
     if(palavra.length == 4){
-      let animal = document.getElementById('imgAnimal');
+      
+      let animal = frame.contentDocument.getElementById('imgAnimal');
       animal.classList.remove('d-none');
     }
   }

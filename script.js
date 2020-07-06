@@ -14,7 +14,6 @@ window.onload = function() {
   function addLetter(letter) {
     // função para alterar o aspecti visual de cada letra
     // que for encontrada uma letra na tela 
-    debugger
     
     let letraHtml = document.getElementById(letter);
     letraHtml.style.color = "red";

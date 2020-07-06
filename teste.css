@@ -21,7 +21,7 @@
 #animal{
   display: flex;
   flex-direction: row;
-  background-color: #5fff94;
+  /*background-color: #5fff94;*/
   justify-content: center;
 }
 
@@ -44,7 +44,7 @@
   padding-right: 5px;
 }
 
-#animal #palavra div u{
+#palavra h1{
   border-radius: 5px;
   padding-left: 5px;
   padding-right: 5px;

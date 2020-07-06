@@ -1,6 +1,9 @@
 <html>
   <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
   <script src="https://raw.githack.com/jeromeetienne/AR.js/1.7.5/aframe/build/aframe-ar.js"></script>
+  <header>
+    <link rel="stylesheet" type="text/css" href="teste.css" />
+  </header>
   <body id="corpo" style="margin : 0px;">
     <a-scene arjs="debugUIEnabled: false;">
       
@@ -100,7 +103,9 @@
       <a-entity camera></a-entity>
     </a-scene>
 
-    <div id="load"></div>
-    <script src="script.js"></script>
+    <div id="imgAnimal" class="d-none">
+      <img src="Imagens/Animais/urso.png">
+    </div>
+    <!--<script src="script.js"></script>-->
   </body>
 </html>

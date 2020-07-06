@@ -45,9 +45,7 @@ window.onload = function() {
       addLetter(letra);
       // Verificar o query selector pois está retornando Null
       elemento = document.querySelector("u#letraU");
-      alert('EH ISSO MEU!!!! ' + elemento);
       elemento = document.querySelector("u.letraU");
-      alert(elemento);
 
       console.log('EH ISSO', palavra);
       visualizarAnimal(palavra, frame);

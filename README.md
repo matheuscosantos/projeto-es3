@@ -7,7 +7,7 @@ Profº Giuliano Bertoti
   - Matheus da Cruz Oliveira - **RA:** 1460481821060
   - Pablo Gabriel Rufino Barbosa - **RA:** 14604821070
 
-Veja a aplicação on Glitch clicando [aqui](https://glitch.com/edit/#!/projeto-engenharia?path=application.html%3A8%3A139)
+Veja a aplicação on Glitch clicando [aqui](https://projeto-engenharia.glitch.me/)
 
 ## Projeto para auxílio na educação infantil
 
@@ -53,3 +53,6 @@ Os resultados obtidos durante o desenvolvimento, para demonstração foi utiliza
 
 #### Tela de regras
 ![Formação da palavra](https://raw.githubusercontent.com/matheuscosantos/projeto-es3/master/Imagens/tela_regras.png)
+
+#### Tela do jogo
+![Formação da palavra](https://raw.githubusercontent.com/matheuscosantos/projeto-es3-2020-1/master/Imagens/formando_palavra.png)

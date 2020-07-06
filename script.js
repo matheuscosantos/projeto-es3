@@ -1,7 +1,6 @@
 window.onload = function() {
   var frame = document.getElementById("frameID");
-  debugger
-
+  
   var final = false;
 
   var markerLetterU = frame.contentDocument.getElementById("markerLetterU");
@@ -15,6 +14,7 @@ window.onload = function() {
   function addLetter(letter) {
     // função para alterar o aspecti visual de cada letra
     // que for encontrada uma letra na tela 
+    debugger
     
     let letraHtml = document.getElementById(letter);
     letraHtml.style.color = "red";

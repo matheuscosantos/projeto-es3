@@ -1,5 +1,6 @@
 window.onload = function() {
   var frame = document.getElementById("frameID");
+  debugger
 
   var final = false;
 
